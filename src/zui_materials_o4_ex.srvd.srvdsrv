@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_MATERIALS_EX'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_MATERIALS_EX'
+  }
+}
+define service ZUI_MATERIALS_O4_EX provider contracts odata_v4_ui {
+  expose ZC_MATERIALS_EX as Materials;
+}
